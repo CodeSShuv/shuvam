@@ -1,0 +1,76 @@
+.pr-card-title{
+    color: white;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    padding: .3rem;
+}.progressbar{
+    height: .7rem;
+    background-color: rgba(182, 182, 182, 0.281);
+    border-radius: 1rem ;
+    display: flex;
+    overflow: hidden;
+    margin-top: .2rem;
+    
+}
+.progress-card{
+    /* box-shadow: 0px 0px 10px 0px rgba(182, 182, 182, 0.281) ; */
+    transition: all .2s ease-in-out;
+}
+.progress-card:hover{
+    box-shadow: 0px 0px .3rem 0px rgba(182, 182, 182, 0.281)
+}
+.progressbar-thumb{
+    display: inline-block;
+    background-color: rgb(253, 82, 82);
+    height: 100%;
+
+}
+#pr-card img{
+    width: 100%;
+    /* object-fit:cover; */
+}
+.card-container{
+    /* padding-bottom: .1rem; */
+    background-color: #4F4557;
+    display: inline-block;
+}
+.p-image-container{
+    width:18rem;
+    height: 12rem;
+    /* background-color: red; */
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: 1px solid rgba(182, 182, 182, 0.281);
+}
+.p-image-container img{
+    object-fit: cover;
+    height: 12rem;
+    width: 18rem;
+    
+}
+.p-description{
+    width: 18rem;
+    /* background-color: white; */
+    color: white;
+    box-sizing: border-box;
+    text-align:justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: .7rem;
+    outline: 1px solid rgba(182, 182, 182, 0.281);
+    font-weight: 400;
+    
+}
+.heading{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+ 
+@media only screen and(width<1040px){
+    .card-container{
+        padding: 0;
+
+   }
+    
+}

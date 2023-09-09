@@ -1,0 +1,83 @@
+.off-canvas{
+    background-color: #393646;
+    position: absolute;
+    top: 0;
+    left: -25rem;
+    z-index: 1;
+    width: 24rem;
+    height: 115vh;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column;
+    /* border: 1px solid white; */
+    margin: 0;
+    transition: all .5s ease-in-out;
+}
+.off-canvas-nav::-webkit-scrollbar{
+    width: .3rem;
+    
+    background-color: #393646bb;
+}
+
+.off-canvas-nav::-webkit-scrollbar-thumb{
+    background-color: #4F4557;
+}
+.off-canvas-nav{
+    margin-top: 50%;
+    /* background-color: white; */
+    height: 26rem;
+    box-sizing: border-box;
+    overflow: auto;
+}
+nav ul{
+    /* background-color: red; */
+    padding: .2rem;
+    padding-top: .4rem;
+}
+
+.nav-social-links li {
+    list-style-type: none;
+    text-align: center;
+    border-radius:5rem;
+   
+    margin-top: .5rem;
+    
+}
+.nav-social-links li a,.nav-social-links div{
+   
+   display: inline-block;
+    padding:.5rem;
+    border-radius: 5rem;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: all 1s ease-in-out;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    
+    
+}
+.nav-social-links li:hover {
+    background-color: grey;
+    color: grey;
+
+}
+.on{
+    left: 0rem;
+}
+.nav-social-links div{
+    font-size: 1rem;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    width: 100%;
+
+}
+
+@media only screen and (width<1040px) {
+    .nav-social-links li a{
+        font-size: 1rem;
+    }
+}

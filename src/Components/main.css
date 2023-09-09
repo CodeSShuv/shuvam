@@ -1,0 +1,39 @@
+.main-container{
+    overflow: hidden;
+    background-color: #4F4557;
+    width: 100%;
+    height: 100vh;
+    border-radius:2rem 2rem 0rem 0rem;
+    position: relative;
+    margin-bottom:4rem;
+}
+.display-container{
+    
+    height: 100vh;
+    padding: 1rem;
+    overflow-x:hidden !important ;
+    overflow-y: auto !important;
+}
+.display-container::-webkit-scrollbar{
+    width: .5rem;
+    background-color: #393646bb;
+}
+.display-container::-webkit-scrollbar-thumb{
+    background-color: #4F4557;
+}
+@media only screen and (width<1040px) {
+    .main-container{
+       width: calc(100%);
+       
+    }
+    .display-container{
+        padding: 0;
+        
+    }
+    
+}
+@media only screen and (width >= 1080px){
+    .main-container{
+        height: 50rem;
+    }
+}
