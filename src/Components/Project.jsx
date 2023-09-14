@@ -11,7 +11,7 @@ const Project = () => {
         <div className="heading">Projects</div>
         <div className="all-project-info-container">
           <Section subHeading = {"HTML, CSS, JS"}>
-            <a href="codesshuv.github.io/js-form-validation">
+            <a href="https://codesshuv.github.io/js-form-validation/">
 
               <ProgressCard image = './project image/form validation.png' skill = "Form-Validation"/>
             </a>
@@ -19,11 +19,11 @@ const Project = () => {
               <ProgressCard image = './project image/clock.png' skill = "Digital Clock"/>
           </Section>
           <Section subHeading = {"REACTJS "}>
-            <a href="codesshuv.github.io/Portfolio-site">
+            <a href="https://codesshuv.github.io/Portfolio-site/">
 
-            <ProgressCard image = {""} skill = {"Portfolio Site"}/>
+            <ProgressCard image = {"./project image/portfoilo.png"} skill = {"Portfolio Site"}/>
             </a>
-            <a href="codesshuv.github.io/tic-tac-toe">
+            <a href="https://codesshuv.github.io/tic-tac-toe/">
 
             <ProgressCard image = {"./project image/tictactoe.png"} skill = {"Tic Tac Toe"}/>
             </a>
