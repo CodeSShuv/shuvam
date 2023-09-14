@@ -16,7 +16,7 @@ const Offcanvas = (props) => {
                     </li>
                     <li>
                         <a href="#projects">
-                            <i class="fa-solid fa-briefcase"/><span>Projects</span>
+                            <i class="fa-solid fa-briefcase"></i><span>Projects</span>
                         </a>
                     </li>
                   
