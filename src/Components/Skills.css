@@ -1,3 +1,8 @@
 .all-skills-info-container{
     padding-left: 1.2rem;
 }
+@media only screen and (width<1040px) {
+    .all-skills-info-container{
+        padding-left:0 ;
+    }
+}

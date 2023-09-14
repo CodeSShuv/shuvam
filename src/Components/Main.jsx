@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import Offcanvas from './Offcanvas'
 import Skills from './Skills'
+import Project from './Project'
 const Main = (props) => {
   return (
     <>
@@ -13,6 +14,7 @@ const Main = (props) => {
             <main className='display-container'>
                 <Home/>
                 <Skills/>
+                <Project/>
             </main>
         </div>
     </>
