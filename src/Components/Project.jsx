@@ -11,7 +11,7 @@ const Project = () => {
         <div className="heading">Projects</div>
         <div className="all-project-info-container">
           <Section subHeading = {"HTML, CSS, JS"}>
-            <a href="codesshuv.github.io/form-validation">
+            <a href="codesshuv.github.io/js-form-validation">
 
               <ProgressCard image = './project image/form validation.png' skill = "Form-Validation"/>
             </a>
