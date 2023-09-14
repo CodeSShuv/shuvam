@@ -21,7 +21,7 @@ const Project = () => {
           <Section subHeading = {"REACTJS "}>
             <a href="https://codesshuv.github.io/Portfolio-site/">
 
-            <ProgressCard image = {"./project image/portfoilo.png"} skill = {"Portfolio Site"}/>
+            <ProgressCard image = {"./project image/portfolio.png"} skill = {"Portfolio Site"}/>
             </a>
             <a href="https://codesshuv.github.io/tic-tac-toe/">
 
