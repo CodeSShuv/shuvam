@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <>
 
-      <div className="project_content" id='project'>
+      <div className="project_content" id='projects'>
         <div className="heading">Projects</div>
         <div className="all-project-info-container">
           <Section subHeading = {"HTML, CSS, JS"}>

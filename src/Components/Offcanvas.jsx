@@ -14,6 +14,11 @@ const Offcanvas = (props) => {
                             <i class="fa fa-2x fa-home" aria-hidden="true"></i> <span>Home</span> 
                         </a>
                     </li>
+                    <li>
+                        <a href="#projects">
+                            <i class="fa-solid fa-briefcase"></i><span>Projects</span>
+                        </a>
+                    </li>
                   
                     <li>
                     <a href="#section">
